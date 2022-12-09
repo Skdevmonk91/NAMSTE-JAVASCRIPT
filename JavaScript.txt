@@ -1,0 +1,13 @@
+FROM EP-1 
+1. JavaScript is synchronous and single threaded language(which means it will executed of commands one by one after one get executed)
+
+
+
+FROM EP-2
+2. it divide in two parts memory and code first part is called memory creation phase and second part is called code execution phase first phase will store only define and store function,classes of code and in second phase it will add values of function that we have written in code
+
+3. once a program execution is complete whole global context(content)(background running activity for JavaScript code) will be deleted 
+
+4. it have call stake in that stake at the bottom there is global execution context(gec)rely and than it starts execution from e1 part means first part of code get execution in upper phase of gec and then it removes same thing will repeat until all EC get executed after than GEC get remove from stack or delete from stack will happen and stack is empty after than
+
+5. call stake have different names like Execution Context Stack,Program Stack,Control Stack,Runtime Stack and Machine Stack
