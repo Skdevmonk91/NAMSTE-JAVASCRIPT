@@ -11,3 +11,23 @@ FROM EP-2
 4. it have call stake in that stake at the bottom there is global execution context(gec)rely and than it starts execution from e1 part means first part of code get execution in upper phase of gec and then it removes same thing will repeat until all EC get executed after than GEC get remove from stack or delete from stack will happen and stack is empty after than
 
 5. call stake have different names like Execution Context Stack,Program Stack,Control Stack,Runtime Stack and Machine Stack
+
+
+
+FROM EP-3
+6. In hoisting concept you can call function before initialize them in code and later on you can create function but this method can store function and internal code with values but cant be help with single variable because it can declare variable but it cannot take any initialize values in hoisting
+
+7. In arrow function it is also act as variable when it comes in hoisting(means accessing before initialization) values will be undefined and throw an error
+
+
+
+FROM EP-4
+-> Function Work & Variable Environment In JavaScript
+8. "declaring variable with any name and put it for output line using console and than adding two function calling that hasn't been made after that make those function with same variable name"   whole function calling will be same as defined in output means if there is function with variable it will start executing once it get executed it will remove and then another function comes it will repeat same story and then you have last variable it will get execute because define in last but in hoisting method (all of execution goes one by one and gets done it will remove from backend function with same variable name doesn't get any different effect of execution because all will be inside function and it have those limitations also work the same outcome without hoisting)  
+
+
+
+FROM EP-5
+9. This keyword also known as global keyword work as global and even if we don't define as global it will take as global.
+
+10. If we don't define any code in tab it still runs it's engine and check for it if there is any code is available or not and do its regular functionality
