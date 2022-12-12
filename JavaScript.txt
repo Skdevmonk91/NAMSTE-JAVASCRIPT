@@ -49,3 +49,13 @@ FROM EP-7
 14. Lexical environment has access variable from a parent and use when it comes to terms of execution
 
 15. Scope chain will check code on three phases first it start it with local level and then its parent level if it cant find it then it will check on global level all these process to find variable of code that we have defined/used called scope chain
+
+
+
+FROM EP-8
+-> let & const(temporal dead zone) in JavaScript
+16. Temporal dead zone is between time of hoisting and outcome(output) value is being printed or not always applicable in terms of "let & const" for both of them
+
+17. Window & This can access variable of var because they are available on globally on code and print the value whether in case of this it can't be accessed because let have blocked and not available global so it will print error
+
+18. It cant access value before initialize them after initialize them we can access those value(rule is applicable for const & let)
