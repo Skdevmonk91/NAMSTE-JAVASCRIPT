@@ -59,3 +59,11 @@ FROM EP-8
 17. Window & This can access variable of var because they are available on globally on code and print the value whether in case of this it can't be accessed because let have blocked and not available global so it will print error
 
 18. It cant access value before initialize them after initialize them we can access those value(rule is applicable for const & let)
+
+
+
+FROM EP-9
+-> Block Scope & Shadowing
+19. block also known as compound statement It uses to combine multiple statement code into one group ({}) is called as block scope/block
+
+20. Shadowing a variable declared in a certain scope (has the same name as a variable in an outer scope and illegal shadowing had few limitations and rules to apply
