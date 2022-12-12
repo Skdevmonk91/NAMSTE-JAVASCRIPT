@@ -31,3 +31,11 @@ FROM EP-5
 9. This keyword also known as global keyword work as global and even if we don't define as global it will take as global.
 
 10. If we don't define any code in tab it still runs it's engine and check for it if there is any code is available or not and do its regular functionality
+
+
+
+FROM EP-6
+-> undefined & notDefined in JavaScript
+11.JavaScript is also known as weakly type language & loosely type of language it means once you stored variable a string it still allow to take other data types on later or at that time in code but if it is strict type language not allowed once you allow data type of that specific variable
+
+12. undefined variables will be take default when you initialize them whether in case of  not defined is that you haven't initialize or created that variable
