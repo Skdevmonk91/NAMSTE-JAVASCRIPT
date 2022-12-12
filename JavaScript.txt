@@ -39,3 +39,13 @@ FROM EP-6
 11.JavaScript is also known as weakly type language & loosely type of language it means once you stored variable a string it still allow to take other data types on later or at that time in code but if it is strict type language not allowed once you allow data type of that specific variable
 
 12. undefined variables will be take default when you initialize them whether in case of  not defined is that you haven't initialize or created that variable
+
+
+
+FROM EP-7
+-> Scope,Scope Chain & Lexical Environment
+13. Scope is current context of code, which determines the accessibility of variables to JavaScript
+
+14. Lexical environment has access variable from a parent and use when it comes to terms of execution
+
+15. Scope chain will check code on three phases first it start it with local level and then its parent level if it cant find it then it will check on global level all these process to find variable of code that we have defined/used called scope chain
