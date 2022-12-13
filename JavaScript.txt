@@ -67,3 +67,11 @@ FROM EP-9
 19. block also known as compound statement It uses to combine multiple statement code into one group ({}) is called as block scope/block
 
 20. Shadowing a variable declared in a certain scope (has the same name as a variable in an outer scope and illegal shadowing had few limitations and rules to apply
+
+
+
+FROM EP-10
+-> Closures in JavaScript
+21. closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment) even if it has no physical keywords or code to access it is still important part of javascript code
+
+22. closure can be used in module design pattern,currying,functions like once,memoize,maintaining state in async world,setTimeouts,Iterators,etc...
