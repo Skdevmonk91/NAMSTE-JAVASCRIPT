@@ -75,3 +75,9 @@ FROM EP-10
 21. closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment) even if it has no physical keywords or code to access it is still important part of javascript code
 
 22. closure can be used in module design pattern,currying,functions like once,memoize,maintaining state in async world,setTimeouts,Iterators,etc...
+
+
+
+FROM EP-11
+-> setTimeout & closures
+22. setTimeout sets a timer which executes a function or specified piece of code once the timer expires
