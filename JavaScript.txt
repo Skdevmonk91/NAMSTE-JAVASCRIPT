@@ -81,3 +81,19 @@ FROM EP-10
 FROM EP-11
 -> setTimeout & closures
 22. setTimeout sets a timer which executes a function or specified piece of code once the timer expires
+
+
+
+FROM EP-12
+-> First class function & anonymous function
+23. Function statement are regular function with normal structure
+
+24. Function expression can store function inside created new variable
+
+25. Anonymous function are function without name and can not allow a function without name it will throw error
+
+26. difference between function expression and named function expression is it have variable and function name both allowed in code but it wont allow at calling time only variable can be called function name will throw error
+
+27. parameters are passed in function whether actual value or arguments are passed later in that function for output(parameter & argument)
+
+28. we can pass function function inside a function it can be made an use an output using different method(of first class function) they are also known as first class citizen in javascript 
