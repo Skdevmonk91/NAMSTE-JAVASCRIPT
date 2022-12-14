@@ -84,7 +84,7 @@ FROM EP-11
 
 
 
-FROM EP-12
+FROM EP-13
 -> First class function & anonymous function
 23. Function statement are regular function with normal structure
 
