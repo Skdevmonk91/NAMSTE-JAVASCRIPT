@@ -106,3 +106,10 @@ FROM EP-14
 30. we can use callback function & Event listener in timeout method with help of closure(lexical scope) & regular function that make counts for each time track number records we have clicked created button and targeted with id
 
 31.removeEventListener when we don't need to use in code because event listener takes big amount of space unnecessarily that make code heavy and slow in execution suppose we make page with thousands of events attached even if we don't gonna use less or no use it will make execution slow of that page so if we don't need events when they have not much use we can remove 
+
+
+
+FROM EP-12
+32. Data Encapsulation(Data Hiding)cant access internal function of some parent directly it will throw error of reference error  But we can access them through calling main function inside a variable and it will increase count each time we call that variable
+
+33. Constructor is a special function that creates and initializes an object instance of a class In JavaScript, a constructor gets called when an object is created using the new keyword
