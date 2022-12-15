@@ -128,3 +128,11 @@ FROM EP-15
 38. there one more bigger place in hierarchy microtask queue they have higher priority than callback queue it uses to store callback functions they will run when global function are run in call stack snd completed and there is space is empty for callback functions it will assign in call stack and start executing with help of event loop to assign them in call stack if there are both available callback timer and callback function they will execute callback function first and then turn goes for callback timers
 
 39. Starvation of callback queue will happen when they are too many function of microtask queue is running because they are prioritized more even there are only one callback queue have left it wont let run by event loop so if there are too many function in microtask queue callback queue dont get chance to run its functions
+
+
+
+FROM EP-16
+-> JavaScript engine & Google V8 Architecture
+40. JavaScript Runtime Environment has many things to run code of javascript which includes javascript engine,api,call stack,event loop,callback queue,microtask queue etc.. all browsers have there javascript engine to run code one of them is spiderMonkey that used in mozilla firefox or one of most famous engine V8 that used by node.js,deno,V8.net and google for all of its applications
+
+41. ECMAScript is governing body for javascript   spiderMonkey is first javascript engine that was created and it was done by javascript founder   JS Engine is not a machine   it can be made with language like c for build a code to run new code   they will do parsing,compilation and execution of code inside JS Engine   parsing generates token of code those token will be used to pass in syntax parser that process done and it will create abstract syntax tree(AST) of that JS code
