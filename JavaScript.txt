@@ -136,3 +136,13 @@ FROM EP-16
 40. JavaScript Runtime Environment has many things to run code of javascript which includes javascript engine,api,call stack,event loop,callback queue,microtask queue etc.. all browsers have there javascript engine to run code one of them is spiderMonkey that used in mozilla firefox or one of most famous engine V8 that used by node.js,deno,V8.net and google for all of its applications
 
 41. ECMAScript is governing body for javascript   spiderMonkey is first javascript engine that was created and it was done by javascript founder   JS Engine is not a machine   it can be made with language like c for build a code to run new code   they will do parsing,compilation and execution of code inside JS Engine   parsing generates token of code those token will be used to pass in syntax parser that process done and it will create abstract syntax tree(AST) of that JS code
+
+
+
+FROM EP-17
+-> Problems with setTimeout()
+42. Concurrency model is an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks
+
+43. Main Thread Blocking in javascript is when a function setted for specific time it will run all gec code in callback and then make place for timer function but if there is code which have setted to run after 15 seconds and than calling other function for 5000 miliseconds it will mess up in output timeLine first function will executed after time than second function wont wait for another time to run both will be executed at same time and there problem with this time line would cause main thread blocking situation 
+
+44. setTimeout(0) will be called after 0 seconds means exact after time ends but it still have to wait until all global elements are executed then it will come from callback queue and executed in call stack
