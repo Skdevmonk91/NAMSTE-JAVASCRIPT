@@ -113,3 +113,18 @@ FROM EP-12
 32. Data Encapsulation(Data Hiding)cant access internal function of some parent directly it will throw error of reference error  But we can access them through calling main function inside a variable and it will increase count each time we call that variable
 
 33. Constructor is a special function that creates and initializes an object instance of a class In JavaScript, a constructor gets called when an object is created using the new keyword
+
+
+
+FROM EP-15
+34. console,DOM API(ex: Document.)s,setTimeout,fetch() are actually not an javascript function or code but they are part of WEB APIs that service provided by browser
+
+35. Event loop keeps check between all events that are performed in call stack,callback queue & microtask queue and keep giving values and checking them whether all task is performed/empty/adding/deleting/etc... or not
+
+36. Call stack is mainly responsible to perform all given task but there are more two types of task we can perform with two different types of queues
+
+37. callback queue used to store callback timer until time reaches out and it will run when global function are run in call stack snd completed and there is space is empty for callback to call his timers event loop start to assign them in call stack till then callback queue saves and keep records of callbacks(callback queue is also known as task queue in javascript)
+
+38. there one more bigger place in hierarchy microtask queue they have higher priority than callback queue it uses to store callback functions they will run when global function are run in call stack snd completed and there is space is empty for callback functions it will assign in call stack and start executing with help of event loop to assign them in call stack if there are both available callback timer and callback function they will execute callback function first and then turn goes for callback timers
+
+39. Starvation of callback queue will happen when they are too many function of microtask queue is running because they are prioritized more even there are only one callback queue have left it wont let run by event loop so if there are too many function in microtask queue callback queue dont get chance to run its functions
