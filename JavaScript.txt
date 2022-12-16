@@ -156,3 +156,14 @@ FROM EP-18
 46. Using simple method of calling function there is lot of code sometime repeat most of code except logic sometime we can add that code to print outcome it wont change but we can only create logic function extra(for callback) so we make code re-usability more using DRY
 
 47. if we dont want to build a higher order function we can just make input data and logic function then implement with map function will take logic automatically and easily usable on most time where less coding required we can replicate same thing without map in this time we need same higher order function without array/object values
+
+
+
+FROM EP-19
+48. Map maps values of different types and give output inside console/window can be used for example like values double,triple or binary etc... 
+
+49. We can give function inside map/filter for output it will be same and valid but even if try to access same thing through arrow function we can
+
+50. filter actually filters values in javascript can be used for example like to find odd,even,greater values in programs
+
+51. reduce() method returns a single value the function's accumulated result it passes two parameters and one value to start the iteration of values accumulator passed initial value and count with current value to store final result in accumulator current asses current value to do work with accumulator  0 or other any value passed through at end of function to iterate or start the comparison of values from different array/obj/string(if we pass 0 value and call the maximum value function and pass no values it have 0 so it will print 0 as max value therefore they have to pass value)
