@@ -146,3 +146,13 @@ FROM EP-17
 43. Main Thread Blocking in javascript is when a function setted for specific time it will run all gec code in callback and then make place for timer function but if there is code which have setted to run after 15 seconds and than calling other function for 5000 miliseconds it will mess up in output timeLine first function will executed after time than second function wont wait for another time to run both will be executed at same time and there problem with this time line would cause main thread blocking situation 
 
 44. setTimeout(0) will be called after 0 seconds means exact after time ends but it still have to wait until all global elements are executed then it will come from callback queue and executed in call stack
+
+
+
+FROM EP-18
+->Higher order function
+45. Higher order functions are called when you to take callback function as argument to pass inside new functions and call it will work as higher order functions
+
+46. Using simple method of calling function there is lot of code sometime repeat most of code except logic sometime we can add that code to print outcome it wont change but we can only create logic function extra(for callback) so we make code re-usability more using DRY
+
+47. if we dont want to build a higher order function we can just make input data and logic function then implement with map function will take logic automatically and easily usable on most time where less coding required we can replicate same thing without map in this time we need same higher order function without array/object values
