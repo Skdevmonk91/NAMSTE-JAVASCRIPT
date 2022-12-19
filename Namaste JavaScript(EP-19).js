@@ -153,3 +153,70 @@ const getMax = array3.reduce(function (max, values) {
     return max;
 }, 0);
 console.log("Max value using reduce: ", getMax);
+
+
+
+
+
+//Tricky map example
+//Creating a new object to check map values(with pre-stored data inside object)
+const user = [
+    { firstName: "Steve", lastName: "jobs", age: 56 },
+    { firstName: "Jeff", lastName: "bezos", age: 58 },
+    { firstName: "Sundar", lastName: "Pichai", age: 34 },
+    { firstName: "Mark", lastName: "zuckerberg", age: 45 },
+    { firstName: "Alex", lastName: "Remes", age: 26 },
+    { firstName: "Owen", lastName: "wilson", age: 67 },
+]
+
+/* Trying to access all user full name using map method(feels more real time example) in javascript coding */
+const outUser = user.map((x) => x.firstName + " " + x.lastName);
+//for output of user's fullName 
+console.log(outUser);
+
+
+
+
+//Tricky reduce example
+//Creating a new object for reduce example(with pre-stored data inside object)
+const users = [
+    { firstName: "Steve", lastName: "jobs", age: 26 },
+    { firstName: "Jeff", lastName: "bezos", age: 58 },
+    { firstName: "Sundar", lastName: "Pichai", age: 34 },
+    { firstName: "Mark", lastName: "zuckerberg", age: 45 },
+    { firstName: "Alex", lastName: "Remes", age: 26 },
+]
+
+/* trying to access values of same age or different age from data in numbers that are available using reduce function(real-time example)  */
+const outUsers = users.reduce(function (acc, curr) {
+    if (acc[curr.age]) {
+        acc[curr.age] = ++acc[curr.age]
+    }
+
+    else {
+        acc[curr.age] = 1;
+    }
+
+    return acc;
+}, {})
+//For output of same age
+console.log(outUsers);
+
+
+
+
+//Tricky filter and mix example
+//Creating a new object for filter/mix example(with pre-stored data inside object)
+const userMenu = [
+    { firstName: "Steve", lastName: "jobs", age: 26 },
+    { firstName: "Jeff", lastName: "bezos", age: 58 },
+    { firstName: "Sundar", lastName: "Pichai", age: 34 },
+    { firstName: "Mark", lastName: "zuckerberg", age: 45 },
+]
+
+/* We can use multiple methods(map,filter,reduce) in same object/function/code to use and make it more effective or useful code */
+//to target firstname only through age basis using mix(all) methods in same code
+const outUserMenu =
+    userMenu.filter((a) => a.age > 30) //filter will print people age is greater than 30
+        .map((a) => a.firstName); //map will print only first name
+console.log(outUserMenu); //for output of firstName through age basis
