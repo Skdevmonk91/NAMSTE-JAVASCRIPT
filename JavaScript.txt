@@ -178,3 +178,13 @@ FROM EP-01(SEASON 2)
 53. callback function is backbone of asynchronous javascript without callback function we can execute code in specific time or at later time we design
 
 54. But there few issues with callback one of them is callback hell it occurs when too many callbacks/functions/objects/etc... inside one to another and build nesting of code it can affect when there are too many lines of this type of code available it becomes unmaintainable whether second problem is inversion of control this can happen when one function is stored in another function and setted to be execute after parent or main function execute the child function dependencies are higher it means it will executed only and only if parent function is executed but if there is condition when parent function dont get execute it wont let inner(child) function to work this situation led to inversion of control
+
+
+
+FROM EP-02(SEASON 2)
+->Promise In JavaScript 
+55. Promise is object that eventually completes/failure of asynchronous operation it ensures to run the code inside it at least once and risk minimization in code but it will only run once in code
+
+56. Difference between passing callback function and attaching callback function is first one just pass function and second actually attaches function to promise object
+
+57. if code starts to work horizontally instead of vertical(regular way) it is known as pyramid of doom preventing them by attaching each objects one by one to code
