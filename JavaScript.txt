@@ -167,3 +167,5 @@ FROM EP-19
 50. filter actually filters values in javascript can be used for example like to find odd,even,greater values in programs
 
 51. reduce() method returns a single value the function's accumulated result it passes two parameters and one value to start the iteration of values accumulator passed initial value and count with current value to store final result in accumulator current asses current value to do work with accumulator  0 or other any value passed through at end of function to iterate or start the comparison of values from different array/obj/string(if we pass 0 value and call the maximum value function and pass no values it have 0 so it will print 0 as max value therefore they have to pass value)
+
+52. map,filter & reduce all of methods are used in real time code for multiple purposes real life evaluation for them is higher We can use multiple methods(map,filter,reduce) in same object/function/code to use and make it more effective or useful code
