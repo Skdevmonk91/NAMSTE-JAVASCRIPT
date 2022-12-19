@@ -169,3 +169,12 @@ FROM EP-19
 51. reduce() method returns a single value the function's accumulated result it passes two parameters and one value to start the iteration of values accumulator passed initial value and count with current value to store final result in accumulator current asses current value to do work with accumulator  0 or other any value passed through at end of function to iterate or start the comparison of values from different array/obj/string(if we pass 0 value and call the maximum value function and pass no values it have 0 so it will print 0 as max value therefore they have to pass value)
 
 52. map,filter & reduce all of methods are used in real time code for multiple purposes real life evaluation for them is higher We can use multiple methods(map,filter,reduce) in same object/function/code to use and make it more effective or useful code
+
+
+
+
+
+FROM EP-01(SEASON 2)
+53. callback function is backbone of asynchronous javascript without callback function we can execute code in specific time or at later time we design
+
+54. But there few issues with callback one of them is callback hell it occurs when too many callbacks/functions/objects/etc... inside one to another and build nesting of code it can affect when there are too many lines of this type of code available it becomes unmaintainable whether second problem is inversion of control this can happen when one function is stored in another function and setted to be execute after parent or main function execute the child function dependencies are higher it means it will executed only and only if parent function is executed but if there is condition when parent function dont get execute it wont let inner(child) function to work this situation led to inversion of control
