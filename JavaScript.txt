@@ -210,3 +210,12 @@ and inside that we can pass all values
 
 63. Bind method uses same format like call method difference is it can straight call
 instead we have to store inside new variable and call it like function
+
+
+
+-> NAMASTE JAVASCRIPT(EVENT BUBBLING & EVENT TICKLING(CAPTURING))
+64. event bubble follows cycle of whether accessing child then parent and than grandParent whether in event tickling is reverse first it is grandParent then parent and than child 
+
+65. there is mix up of both types in same thing it can affect code and it will print output on in its method means it will print true first and then false will be accessed inside element
+
+66. to make stop propagation methods using declaring element and target that element with stopPropagation method referring to element it will only access that variable instead of whole code and print it
