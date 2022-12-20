@@ -174,7 +174,6 @@ FROM EP-19
 
 
 
-
 FROM EP-01(SEASON 2)
 53. callback function is backbone of asynchronous javascript without callback function we can execute code in specific time or at later time we design
 
@@ -199,3 +198,15 @@ FROM EP-03(SEASON 2)
 59. we can create and invoke promise constructor using 'new' keyword after promise is created we attach it with two events then & catch first we can add then in single function passed with chain to call then situation one by one but if there is error inside that big chain of then we can call second function that is catch if there is error in execution of then we can provide method/function/message with catch(if there is long chain of code is available and we want specific catch to only specific part we want implement there and it will work only that part of chain code)
 
 60. resolve & reject is part of promise resolve will provide it logic for code and run in regular way but if there is any type of problem comes into execution of resolve it will go to second part reject it will any error message or code that happend in because of error execution of resolve(resolve & reject is part of javascript or provided by javascript)
+
+
+
+-> NAMASTE JAVASCRIPT(CALL,APPLY & BIND)
+61. Function borrowing means creates new variable with function and use them and call them through Call method uses to call from new variable this method possible to pass individual arguments
+
+62. Difference between apply method and call method is call method possible to 
+pass individual arguments and in apply method we have to pass second arguments 
+and inside that we can pass all values
+
+63. Bind method uses same format like call method difference is it can straight call
+instead we have to store inside new variable and call it like function
