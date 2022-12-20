@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste JavaScript Events Bubbling&capturing(tickling)</title>
+    <style>
+        div {
+            min-width: 100px;
+            min-height: 100px;
+            padding: 30px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Namaste JavaScript Events Bubbling&capturing(tickling)</h1>
+
+    <h3><u>To check outcome use console screen:</u></h3>
+
+    <h4>1.Using regular method</h4>
+    <div id="grandParent">
+        <div id="parent">
+            <div id="child"></div>
+        </div>
+    </div><br><br><br>
+
+    <h4>2.Using bubbling method</h4>
+    <div id="grandParent2">
+        <div id="parent2">
+            <div id="child2"></div>
+        </div>
+    </div><br><br><br>
+
+    <h4>3.Using tickling method</h4>
+    <div id="grandParent3">
+        <div id="parent3">
+            <div id="child3"></div>
+        </div>
+    </div><br><br><br>
+
+    <h4>4.Using mix methods</h4>
+    <div id="grandParent4">
+        <div id="parent4">
+            <div id="child4"></div>
+        </div>
+    </div><br><br><br>
+
+    <h4>5.Using propagation method</h4>
+    <div id="grandParent5">
+        <div id="parent5">
+            <div id="child5"></div>
+        </div>
+    </div>
+
+    <script src="Namaste JavaScript(Extra Topic).js"></script>
+</body>
+
+</html>
