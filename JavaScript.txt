@@ -166,9 +166,10 @@ FROM EP-19
 
 50. filter actually filters values in javascript can be used for example like to find odd,even,greater values in programs
 
-51. reduce() method returns a single value the function's accumulated result it passes two parameters and one value to start the iteration of values accumulator passed initial value and count with current value to store final result in accumulator current asses current value to do work with accumulator  0 or other any value passed through at end of function to iterate or start the comparison of values from different array/obj/string(if we pass 0 value and call the maximum value function and pass no values it have 0 so it will print 0 as max value therefore they have to pass value)
+51. reduce method returns a single value the function's accumulated result it passes two parameters and one value to start the iteration of values accumulator passed initial value and count with current value to store final result in accumulator current asses current value to do work with accumulator  0 or other any value passed through at end of function to iterate or start the comparison of values from different array/obj/string(if we pass 0 value and call the maximum value function and pass no values it have 0 so it will print 0 as max value therefore they have to pass value)
 
 52. map,filter & reduce all of methods are used in real time code for multiple purposes real life evaluation for them is higher We can use multiple methods(map,filter,reduce) in same object/function/code to use and make it more effective or useful code
+
 
 
 
@@ -188,3 +189,13 @@ FROM EP-02(SEASON 2)
 56. Difference between passing callback function and attaching callback function is first one just pass function and second actually attaches function to promise object
 
 57. if code starts to work horizontally instead of vertical(regular way) it is known as pyramid of doom preventing them by attaching each objects one by one to code
+
+
+
+FROM EP-03(SEASON 2)
+->Creating promise,error handling & catch
+58. there are two concept object end & producer end first is concept end where we can create a promise and its code with methods whether in second part at producer end we will handle that object,passing its logic and other code object end like client view whether they can pass values and producer is like backend code running inside computer 
+
+59. we can create and invoke promise constructor using 'new' keyword after promise is created we attach it with two events then & catch first we can add then in single function passed with chain to call then situation one by one but if there is error inside that big chain of then we can call second function that is catch if there is error in execution of then we can provide method/function/message with catch(if there is long chain of code is available and we want specific catch to only specific part we want implement there and it will work only that part of chain code)
+
+60. resolve & reject is part of promise resolve will provide it logic for code and run in regular way but if there is any type of problem comes into execution of resolve it will go to second part reject it will any error message or code that happend in because of error execution of resolve(resolve & reject is part of javascript or provided by javascript)
